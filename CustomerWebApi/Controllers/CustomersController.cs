@@ -79,10 +79,10 @@ namespace CustomerWebApi.Controllers
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
         public async Task<ActionResult<Customer>> PostCustomer(Customer customer)
-        {
-            _context.Customers.Add(customer);
+        {            
             try
             {
+                _context.Customers.Add(customer);
                 await _context.SaveChangesAsync();
             }
             catch (DbUpdateException)

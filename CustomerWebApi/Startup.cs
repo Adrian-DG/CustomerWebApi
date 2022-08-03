@@ -31,7 +31,7 @@ namespace CustomerWebApi
 		{
 			services.AddControllers();
 			services.AddDbContext<CustomerContext>(options => {
-				options.UseSqlServer(Configuration.GetConnectionString("CustomerDbContext"));
+				options.UseSqlite(Configuration.GetConnectionString("CustomerDbContext"));
 			});
 
 			services.AddCors(options => {

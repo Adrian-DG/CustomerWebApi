@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Adrian Diaz\\Desktop\\CustomerApp\\CustomerWebApi\\CustomerWebApi\\CustomerWebApi.csproj": {}
+    "C:\\Users\\ajdiaz\\Documents\\netcore_adrian\\customerApp\\CustomerWebApi\\CustomerWebApi\\CustomerWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Adrian Diaz\\Desktop\\CustomerApp\\CustomerWebApi\\CustomerWebApi\\CustomerWebApi.csproj": {
+    "C:\\Users\\ajdiaz\\Documents\\netcore_adrian\\customerApp\\CustomerWebApi\\CustomerWebApi\\CustomerWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Adrian Diaz\\Desktop\\CustomerApp\\CustomerWebApi\\CustomerWebApi\\CustomerWebApi.csproj",
+        "projectUniqueName": "C:\\Users\\ajdiaz\\Documents\\netcore_adrian\\customerApp\\CustomerWebApi\\CustomerWebApi\\CustomerWebApi.csproj",
         "projectName": "CustomerWebApi",
-        "projectPath": "C:\\Users\\Adrian Diaz\\Desktop\\CustomerApp\\CustomerWebApi\\CustomerWebApi\\CustomerWebApi.csproj",
-        "packagesPath": "C:\\Users\\Adrian Diaz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Adrian Diaz\\Desktop\\CustomerApp\\CustomerWebApi\\CustomerWebApi\\obj\\",
+        "projectPath": "C:\\Users\\ajdiaz\\Documents\\netcore_adrian\\customerApp\\CustomerWebApi\\CustomerWebApi\\CustomerWebApi.csproj",
+        "packagesPath": "C:\\Users\\ajdiaz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ajdiaz\\Documents\\netcore_adrian\\customerApp\\CustomerWebApi\\CustomerWebApi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Adrian Diaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\ajdiaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -79,6 +75,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.23, 3.1.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -87,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }
